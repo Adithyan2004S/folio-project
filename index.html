@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+<div class="wrapper">
+    <nav class="main-nav" id="navbar">
+      <a class="home-button" href="#">TOM
+      </a>
+      <ul class="navigation">
+        <li class="nav-item"><a class="nav-link" href="#welcome-section">Welcome</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="welcome-section">
+      <div class="section-content">
+        <h1>Welcome to my portfolio page</h1>
+        <a class="nav-link" href="#about">Learn More</a>
+      </div>
+    </section>
+    <section id="about">
+      <div class="section-content">
+        <h2>About myself</h2>
+        <p>I am an aspiring web developer and currently a student of FreeCodeCamp. I built the projects below as part of the new curriculum which is still in beta at the time of this writing.</p>
+        <a class="nav-link" href="#projects">My Projects</a>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="section-content">
+        <h2>My basic HTML-CSS projects</h2>
+        <div class="project-tiles">
+          <div class="project-tile">
+            <div class="tile-details">
+              <img class="tile-image" src="http://image.ibb.co/e8RY4n/Tribute.png" alt="My tribute page">
+              <p class="tile-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sunt quis enim libero at provident?</p>
+            </div>
+            <span><a href="https://codepen.io/yoizfefisch/full/PKmpxm" target="_blank">Tribute Page: George Washington</a></span>
+          </div>
+          <div class="project-tile">
+            <div class="tile-details">
+              <img class="tile-image" src="http://image.ibb.co/hgDD4n/Survey.png" alt="My survey page">
+              <p class="tile-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sunt quis enim libero at provident?</p>
+            </div>
+            <span><a href="https://codepen.io/yoizfefisch/full/gxEKJN" target="_blank">Survey Form: Rate your day</a></span>
+          </div>
+          <div class="project-tile">
+            <div class="tile-details">
+              <img class="tile-image" src="http://image.ibb.co/fFo2x7/Landing.png" alt="My landing page">
+              <p class="tile-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sunt quis enim libero at provident?</p>
+            </div>
+            <span><a href="https://codepen.io/yoizfefisch/full/XebKOw" target="_blank">Product Landing Page: PerformDrive</a></span>
+          </div>
+          <div class="project-tile">
+            <div class="tile-details">
+              <img class="tile-image" src="http://image.ibb.co/m876Pn/Documentation.png" alt="My documentation page">
+              <p class="tile-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sunt quis enim libero at provident?</p>
+            </div>
+            <span><a href="https://codepen.io/yoizfefisch/full/yvvpXb" target="_blank">Technical Documentation: Power Query (M)</a></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="section-content">
+        <h2>Contact me:</h2>
+        <form action="#">
+          <div class="flex-parent">
+            <div class="flex-item">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" placeholder="Your full name:">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" placeholder="Your email address:">
+            </div>
+            <div class="flex-item">
+              <label for="comment">Comment:</label>
+              <textarea name="comment" id="comment" cols="30" rows="7"  placeholder="Your message:"></textarea>
+            </div>
+          </div>
+          <input class="nav-link" type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+    <footer>
+      <p><a id="profile-link" href="https://beta.freecodecamp.org/en/yoizfefisch" target="_blank">Check me out</a></p>
+    </footer>
+  </div>
+</body>
+</html>
